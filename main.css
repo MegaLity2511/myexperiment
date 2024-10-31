@@ -177,5 +177,42 @@ main {
 .section2 {
   width: 1440px;
   margin-inline: auto;
-  background-color: rgba(245, 245, 245, 0.50);
 }
+
+.selection {
+  display: flex;
+}
+
+.selection-buttons {
+  margin-left: 600px;
+}
+
+.selection-btn1 {
+  color: #46A358;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration-color: white;
+  transition: font-weight 0.9s linear, text-decoration-color 0.3 linear, color 0.3s linear;
+}
+
+.selection-btn1:hover {
+  font-weight: 700;
+  color: #46A358;
+  text-decoration-color: #46A358;
+}
+
+.selection-btn2 {
+  margin-left: 37px;
+  color: #3D3D3D;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration-color: white;
+  transition: color 0.3s linear, text-decoration-color 0.3s linear;
+}
+
+.selection-btn2:hover {
+  color: #46A358;
+  text-decoration-color: #46A358;
+}
+
