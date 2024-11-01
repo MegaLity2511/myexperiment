@@ -177,6 +177,7 @@ main {
 .section2 {
   width: 1440px;
   margin-inline: auto;
+  margin-top: 46px;
 }
 
 .selection {
@@ -216,3 +217,40 @@ main {
   text-decoration-color: #46A358;
 }
 
+.section3 {
+  display: flex;
+}
+
+.sale-img {
+  margin-top: 820px;
+}
+
+.products {
+  margin-top: 69px;
+  margin-left: 76px;
+} 
+
+.product {
+  width: 252px;
+  list-style-type: none;
+}
+
+.product-introduction {
+  text-decoration-line: none;
+}
+
+.text-for-product {
+  color: #3D3D3D;
+  font-size: 16px;
+  font-weight: 400;
+  margin-block: 0;
+  margin-top: 31px;
+}
+
+.price {
+  color: #46A358;
+  font-size: 18px;
+  font-weight: 700;
+  margin-block: 0;
+  margin-top: 6px;
+}
