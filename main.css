@@ -6,7 +6,8 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
   margin: 0;
   overflow-x: scroll;
-  padding-inline: 110px;
+  margin-block: 0;
+  margin-inline: 0;
 }
 
 img {
@@ -16,7 +17,6 @@ img {
 .container {
   width: 1440px;
   margin-inline: auto;
-  padding-inline: 0px;
 }
 
 header {
@@ -27,7 +27,6 @@ header {
 }
 
 .header-functions {
-  margin-left: 229px;
   margin-top: 26px;
 }
 
@@ -186,8 +185,6 @@ main {
 }
 
 .section2 {
-  width: 1440px;
-  margin-inline: auto;
   margin-top: 46px;
 }
 
@@ -195,11 +192,8 @@ main {
   display: flex;
 }
 
-.selection-buttons {
-  margin-left: 600px;
-}
-
 .selection-btn1 {
+  margin-left: 617px;
   color: #46A358;
   font-size: 15px;
   font-weight: 400;
@@ -233,12 +227,13 @@ main {
 }
 
 .sale-img {
-  margin-top: 820px;
+  margin-left: -28px;
+  margin-top: 660px;
 }
 
 .products {
   margin-top: 69px;
-  margin-left: 228px;
+  margin-left: 256px;
   display: flex;
   flex-wrap: wrap;
 } 
@@ -271,7 +266,7 @@ main {
 .product1 {
   width: 252px;
   list-style-type: none;
-  margin-left: 41px;
+  margin-left: 23px;
 }
 
 .product-introduction {
@@ -298,7 +293,7 @@ main {
 .product3 {
   width: 252px;
   list-style-type: none;
-  margin-top: -55px;
+  margin-top: -0px;
 }
 
 .product-introduction {
@@ -324,13 +319,83 @@ main {
 .product2 {
   width: 252px;
   list-style-type: none;
-  margin-top: -51px;
-  margin-left: 41px;
+  margin-left: 23px;
 }
 
 .product4 {
   width: 252px;
   list-style-type: none;
-  margin-left: 41px;
-  margin-top: -47px;
+  margin-left: 23px;
+  margin-top: 40px;
+}
+
+.product5 {
+  width: 252px;
+  list-style-type: none;
+  margin-left: 23px;
+  margin-top: 40px;
+}
+
+.product6 {
+  width: 252px;
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+.product7 {
+  width: 252px;
+  list-style-type: none;
+  margin-left: 23px;
+  margin-top: 40px;
+}
+
+.product8 {
+  width: 252px;
+  list-style-type: none;
+  margin-left: 23px;
+  margin-top: 40px;
+}
+
+.our-blog {
+  width: 1202px;
+  margin-inline: auto;
+}
+
+.blog-title {
+  color: #3D3D3D;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.blog-title-p {
+  color: #727272;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.our_blog-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our_blog-item1 {
+  width: 268px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.our_blog-item1-p1 {
+  color: #46A358;   
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.our_blog-item2 {
+  width: 268px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
 }
