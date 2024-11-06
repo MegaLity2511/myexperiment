@@ -5,7 +5,7 @@
 body {
   font-family: "Roboto", "Arial", sans-serif;
   margin: 0;
-  overflow-x: hidden;
+  overflow-x: scroll;
   padding-inline: 110px;
 }
 
@@ -94,6 +94,11 @@ header {
 
 .search {
   display: inline-block;
+  transition: color 0.3s linear;
+}
+
+.search:hover {
+  color: #46A358;
 }
 
 .login {
@@ -287,7 +292,7 @@ main {
 .product3 {
   width: 252px;
   list-style-type: none;
-  margin-top: -150px;
+  margin-top: -55px;
 }
 
 .product-introduction {
@@ -313,6 +318,13 @@ main {
 .product2 {
   width: 252px;
   list-style-type: none;
-  margin-top: -150px;
+  margin-top: -51px;
   margin-left: 41px;
+}
+
+.product4 {
+  width: 252px;
+  list-style-type: none;
+  margin-left: 41px;
+  margin-top: -47px;
 }
