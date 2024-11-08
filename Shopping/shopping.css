@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  margin: 0;
+  overflow-x: scroll;
+  margin-block: 0;
+  margin-inline: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1440px;
+  margin-inline: auto;
+}
+
+header {
+  width: 1440px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-functions {
+  margin-top: 26px;
+}
+
+.header-a1 {
+  color: #3D3D3D;
+  text-decoration-color: white;
+  font-size: 16px;
+  font-weight: 400;
+  transition: color 0.3s linear, text-decoration-color 0.3s linear;
+}
+
+.header-a1:hover {
+  color: #46A358;
+  text-decoration-color: #46A358;
+}
+
+.header-a3 {
+  margin-left: 55px;
+  display: inline-block;
+  color: #46A358;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration-color: white;
+  transition: color 0.4s linear, text-decoration-color 0.3s linear;
+}
+
+.header-a3:hover {
+  color: #46A358;
+  text-decoration-color: #46A358;
+}
+
+.header-a {
+  margin-left: 50px;
+  display: inline-block;
+  color: #3D3D3D;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-color: white;
+  transition: color 0.4s linear, text-decoration-color 0.3s linear;
+}
+
+.header-a:hover {
+  color: #46A358;
+  text-decoration-color: #46A358;
+}
+
+.header-a2 {
+  margin-left: 47px;
+  display: inline-block;
+  color: #3D3D3D;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-color: white;
+  transition: color 0.4s linear, text-decoration-color 0.3s linear;
+}
+
+.header-a2:hover {
+  color: #46A358;
+  text-decoration-color: #46A358;
+}
+
+.main-a {
+  width: max-content;
+  display: flex;
+  margin-left: 261px;
+}
+
+.search {
+  display: inline-block;
+  transition: color 0.3s linear;
+}
+
+.search:hover {
+  color: #46A358;
+}
+
+.login {
+  display: flex;
+  padding-block: 0px;
+  padding-inline: 17px;
+  border: none;
+  background-color: #46A358;
+  border-radius: 6px;
+  height: 50px; 
+  padding-top: 0; 
+  display: flex; 
+  text-decoration-line: none; 
+  color: white; 
+  margin-top: 10px;
+  margin-left: 30px ;
+}
+
+.login-img {
+  margin-top: 15px;
+}

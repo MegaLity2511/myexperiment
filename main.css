@@ -507,6 +507,7 @@ footer {
 .footer-function4 {
   width: 224px;
   list-style-type: none;
+  margin-left: -10px;
 }
 
 .footer-function1-a {
@@ -531,7 +532,41 @@ footer {
   border: 1px solid #46A358;
   border-radius: 6px;
   text-decoration-line: none;
+  align-items: center;
+  margin-left: 2px;
+  transition: scale 0.3s linear;
 }
 
+.footer-function1-a1:hover {
+  scale: 1.3;
+}
 
+.footer-function1-a1-img {
+  display: flex;
+  margin-inline: auto;
+  margin-top: 7px;
+}
 
+.footer-function1-a2-img {
+  display: flex;
+  margin-inline: auto;
+  margin-top: 6px;
+}
+
+.footer-function1-a3-img {
+  display: flex;
+  margin-inline: auto;
+  margin-top: 6px;
+}
+
+.footer-function1-a4-img {
+  display: flex;
+  margin-inline: auto;
+  margin-top: 6px;
+}
+
+.footer-function1-a5-img {
+  display: flex;
+  margin-inline: auto;
+  margin-top: 8px;
+}
