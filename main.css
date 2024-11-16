@@ -30,6 +30,17 @@ header {
   margin-top: 26px;
 }
 
+.header-a4 {
+  color: #3D3D3D;
+  text-decoration-color: white;
+  transition: color 0.3s linear, text-decoration-color 0.3s linear;
+}
+
+.header-a4:hover {
+  color: #46A358;
+  text-decoration-color: #46A358;
+}
+
 .header-a1 {
   color: #46A358;
   text-decoration-color: white;
@@ -193,7 +204,7 @@ main {
 }
 
 .selection-btn1 {
-  margin-left: 617px;
+  margin-left: 616px;
   color: #46A358;
   font-size: 15px;
   font-weight: 400;
@@ -486,7 +497,7 @@ footer {
 .footer-functions {
   width: 1396px;
   display: flex;
-  justify-content: space-between;
+  margin-left: -35px;
 }
 
 .footer-function1 {
@@ -497,17 +508,19 @@ footer {
 .footer-function2 {
   width: 137px;
   list-style-type: none;
+  margin-left: 212px;
 }
 
 .footer-function3 {
   width: 93px;
   list-style-type: none;
+  margin-left: 183px;
 }
 
 .footer-function4 {
   width: 224px;
   list-style-type: none;
-  margin-left: -10px;
+  margin-left: 290px;
 }
 
 .footer-function1-a {
